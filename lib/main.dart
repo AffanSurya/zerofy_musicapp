@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:zerofy_musicapp/core/configs/theme/app_theme.dart';
+import 'package:zerofy_musicapp/presentation/splash/pages/splash.dart';
 
 /// Flutter code sample for [MenuAnchor].
 
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: AppTheme.lighTheme,
-      home: Container(),
+      debugShowCheckedModeBanner: false,
+      home: const SplashPage(),
     );
   }
 }
