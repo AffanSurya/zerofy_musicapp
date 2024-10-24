@@ -7,8 +7,8 @@ import 'package:zerofy_musicapp/common/widgets/button/bacis_app_button.dart';
 import 'package:zerofy_musicapp/core/configs/assets/app_images.dart';
 import 'package:zerofy_musicapp/core/configs/assets/app_vectors.dart';
 import 'package:zerofy_musicapp/core/configs/theme/app_colors.dart';
+import 'package:zerofy_musicapp/presentation/auth/pages/signup_or_signin.dart';
 import 'package:zerofy_musicapp/presentation/choose_mode/bloc/theme_cubit.dart';
-import 'package:zerofy_musicapp/presentation/splash/pages/splash.dart';
 
 class ChooseModePage extends StatelessWidget {
   const ChooseModePage({super.key});
@@ -145,7 +145,7 @@ class ChooseModePage extends StatelessWidget {
                           context,
                           MaterialPageRoute(
                               builder: (BuildContext context) =>
-                                  const SplashPage()));
+                                  const SignupOrSignin()));
                     },
                     title: 'Lanjut')
               ],
